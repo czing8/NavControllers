@@ -32,6 +32,7 @@
     // 1.设置导航条的背题图片 --- 设置全局
     UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedIn:self, nil];
     navBar.barTintColor = kRGB(38, 122,242);
+    navBar.barTintColor = [UIColor orangeColor];
     
     // 3.设置导航条标题的字体和颜色
     NSDictionary *titleAttr = @{

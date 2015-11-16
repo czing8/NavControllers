@@ -54,7 +54,6 @@
         return;
     }
     
-    
     if (scrollView.contentOffset.y>50) {
         
         [self setNavbarBackgroundHidden:NO];
@@ -72,7 +71,6 @@
     }else{
         [navBar hidden];
     }
-    
 }
 
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -85,9 +83,11 @@
     
     cell.textLabel.text = [NSString stringWithFormat:@"这是第%ld行",(long)indexPath.row];
     
-    
     return cell;
 }
+
+
+
 
 - (void)viewWillDisappear:(BOOL)animated
 {

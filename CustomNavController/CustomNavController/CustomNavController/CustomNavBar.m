@@ -28,7 +28,7 @@
  */
 - (void)show
 {
-    [UIView animateWithDuration:0.2 animations:^{
+    [UIView animateWithDuration:3 animations:^{
         self.bgView.hidden = NO;
     }];
 }
