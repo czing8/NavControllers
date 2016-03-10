@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CustomNavController.xcscheme</key>
+		<key>NavControllers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F186ACC51BF9A4DC00C119DD</key>
+		<key>F109E6981C913BC500FF4BCE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

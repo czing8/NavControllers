@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F186ACC51BF9A4DC00C119DD"
-               BuildableName = "CustomNavController.app"
-               BlueprintName = "CustomNavController"
-               ReferencedContainer = "container:CustomNavController.xcodeproj">
+               BlueprintIdentifier = "F109E6981C913BC500FF4BCE"
+               BuildableName = "NavControllers.app"
+               BlueprintName = "NavControllers"
+               ReferencedContainer = "container:NavControllers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F186ACC51BF9A4DC00C119DD"
-            BuildableName = "CustomNavController.app"
-            BlueprintName = "CustomNavController"
-            ReferencedContainer = "container:CustomNavController.xcodeproj">
+            BlueprintIdentifier = "F109E6981C913BC500FF4BCE"
+            BuildableName = "NavControllers.app"
+            BlueprintName = "NavControllers"
+            ReferencedContainer = "container:NavControllers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F186ACC51BF9A4DC00C119DD"
-            BuildableName = "CustomNavController.app"
-            BlueprintName = "CustomNavController"
-            ReferencedContainer = "container:CustomNavController.xcodeproj">
+            BlueprintIdentifier = "F109E6981C913BC500FF4BCE"
+            BuildableName = "NavControllers.app"
+            BlueprintName = "NavControllers"
+            ReferencedContainer = "container:NavControllers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F186ACC51BF9A4DC00C119DD"
-            BuildableName = "CustomNavController.app"
-            BlueprintName = "CustomNavController"
-            ReferencedContainer = "container:CustomNavController.xcodeproj">
+            BlueprintIdentifier = "F109E6981C913BC500FF4BCE"
+            BuildableName = "NavControllers.app"
+            BlueprintName = "NavControllers"
+            ReferencedContainer = "container:NavControllers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
