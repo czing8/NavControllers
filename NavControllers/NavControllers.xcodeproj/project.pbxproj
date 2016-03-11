@@ -18,6 +18,10 @@
 		F109E6BC1C913DF300FF4BCE /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6BB1C913DF300FF4BCE /* OneViewController.m */; };
 		F109E6BF1C913DFD00FF4BCE /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6BE1C913DFD00FF4BCE /* TwoViewController.m */; };
 		F109E6C21C913E1A00FF4BCE /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6C11C913E1A00FF4BCE /* DemoViewController.m */; };
+		F109E6CA1C92593A00FF4BCE /* navibar_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6C41C92593900FF4BCE /* navibar_back@2x.png */; };
+		F109E6CB1C92593A00FF4BCE /* navibar_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6C51C92593900FF4BCE /* navibar_back@3x.png */; };
+		F109E6CD1C92593A00FF4BCE /* VNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6C91C92593A00FF4BCE /* VNavigationController.m */; };
+		F109E6D01C925B4A00FF4BCE /* VBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6CF1C925B4A00FF4BCE /* VBaseNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,12 @@
 		F109E6BE1C913DFD00FF4BCE /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		F109E6C01C913E1A00FF4BCE /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		F109E6C11C913E1A00FF4BCE /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		F109E6C41C92593900FF4BCE /* navibar_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navibar_back@2x.png"; sourceTree = "<group>"; };
+		F109E6C51C92593900FF4BCE /* navibar_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navibar_back@3x.png"; sourceTree = "<group>"; };
+		F109E6C81C92593A00FF4BCE /* VNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNavigationController.h; sourceTree = "<group>"; };
+		F109E6C91C92593A00FF4BCE /* VNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNavigationController.m; sourceTree = "<group>"; };
+		F109E6CE1C925B4A00FF4BCE /* VBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBaseNavigationController.h; sourceTree = "<group>"; };
+		F109E6CF1C925B4A00FF4BCE /* VBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBaseNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				F109E6B31C913DC900FF4BCE /* CustomNavController */,
+				F109E6C31C92592E00FF4BCE /* NavController_2 */,
 				F109E69F1C913BC500FF4BCE /* AppDelegate.h */,
 				F109E6A01C913BC500FF4BCE /* AppDelegate.m */,
 				F109E6A21C913BC500FF4BCE /* ViewController.h */,
@@ -110,6 +121,19 @@
 				F109E6B71C913DC900FF4BCE /* CustomNavController.m */,
 			);
 			path = CustomNavController;
+			sourceTree = "<group>";
+		};
+		F109E6C31C92592E00FF4BCE /* NavController_2 */ = {
+			isa = PBXGroup;
+			children = (
+				F109E6C41C92593900FF4BCE /* navibar_back@2x.png */,
+				F109E6C51C92593900FF4BCE /* navibar_back@3x.png */,
+				F109E6C81C92593A00FF4BCE /* VNavigationController.h */,
+				F109E6C91C92593A00FF4BCE /* VNavigationController.m */,
+				F109E6CE1C925B4A00FF4BCE /* VBaseNavigationController.h */,
+				F109E6CF1C925B4A00FF4BCE /* VBaseNavigationController.m */,
+			);
+			path = NavController_2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +196,8 @@
 				F109E6AC1C913BC500FF4BCE /* LaunchScreen.storyboard in Resources */,
 				F109E6A91C913BC500FF4BCE /* Assets.xcassets in Resources */,
 				F109E6A71C913BC500FF4BCE /* Main.storyboard in Resources */,
+				F109E6CA1C92593A00FF4BCE /* navibar_back@2x.png in Resources */,
+				F109E6CB1C92593A00FF4BCE /* navibar_back@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,10 +212,12 @@
 				F109E6A41C913BC500FF4BCE /* ViewController.m in Sources */,
 				F109E6B91C913DC900FF4BCE /* CustomNavController.m in Sources */,
 				F109E6C21C913E1A00FF4BCE /* DemoViewController.m in Sources */,
+				F109E6CD1C92593A00FF4BCE /* VNavigationController.m in Sources */,
 				F109E6A11C913BC500FF4BCE /* AppDelegate.m in Sources */,
 				F109E6BC1C913DF300FF4BCE /* OneViewController.m in Sources */,
 				F109E6B81C913DC900FF4BCE /* CustomNavBar.m in Sources */,
 				F109E69E1C913BC500FF4BCE /* main.m in Sources */,
+				F109E6D01C925B4A00FF4BCE /* VBaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +364,7 @@
 				F109E6B21C913BC500FF4BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

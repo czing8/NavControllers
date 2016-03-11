@@ -11,6 +11,8 @@
 #import "CustomNavController.h"
 #import "OneViewController.h"
 
+#import "TwoViewController.h"
+
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource >
 
 @property (nonatomic, strong) UITableView * tableView;
@@ -44,7 +46,7 @@
 }
 
 - (void)initData{
-    _dataSource = @[@"one", @"one", @"one", @"one"];
+    _dataSource = @[@"one", @"two", @"three", @"four"];
 }
 
 
@@ -110,6 +112,7 @@
             break;
             
         case 1:
+            [self presentNavStyleTwo];
             break;
             
         case 2:
@@ -134,6 +137,14 @@
 
     
 }
+
+
+- (void)presentNavStyleTwo{
+    TwoViewController * twoController = [[TwoViewController alloc] init];
+    [self presentViewController:twoController animated:YES completion:nil];
+    
+}
+
 
 
 - (void)didReceiveMemoryWarning {

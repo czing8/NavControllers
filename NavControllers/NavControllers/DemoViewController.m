@@ -18,7 +18,18 @@
     [super viewDidLoad];
 
     self.view.backgroundColor = [UIColor orangeColor];
+    
+    self.title = @"title";
+    self.view.backgroundColor = [UIColor brownColor];
+    self.navigationController.navigationBar.barTintColor = [UIColor blueColor];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Next" style:UIBarButtonItemStylePlain target:self action:@selector(didTapNextButton)];
 }
+
+- (void)didTapNextButton {
+    DemoViewController *viewController = [[DemoViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
